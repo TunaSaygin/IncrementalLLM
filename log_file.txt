@@ -1,0 +1,20 @@
+08/25/2024 11:40:07 train data: total conversations = 7871 : total turns: 54804
+08/25/2024 11:40:07 ------------------------------
+08/25/2024 11:40:07 dev data: total conversations = 996 : total turns: 7341
+08/25/2024 11:40:07 ------------------------------
+08/25/2024 11:58:32 train data: total conversations = 7871 : total turns: 54804
+08/25/2024 11:58:32 ------------------------------
+08/25/2024 11:58:32 dev data: total conversations = 996 : total turns: 7341
+08/25/2024 11:58:32 ------------------------------
+08/25/2024 12:02:14 train data: total conversations = 7871 : total turns: 54804
+08/25/2024 12:02:14 ------------------------------
+08/25/2024 12:02:15 dev data: total conversations = 996 : total turns: 7341
+08/25/2024 12:02:15 ------------------------------
+08/25/2024 12:03:05 train data: total conversations = 7871 : total turns: 54804
+08/25/2024 12:03:05 ------------------------------
+08/25/2024 12:03:06 dev data: total conversations = 996 : total turns: 7341
+08/25/2024 12:03:06 ------------------------------
+08/25/2024 12:03:54 train data: total conversations = 7871 : total turns: 54804
+08/25/2024 12:03:54 ------------------------------
+08/25/2024 12:03:55 dev data: total conversations = 996 : total turns: 7341
+08/25/2024 12:03:55 ------------------------------

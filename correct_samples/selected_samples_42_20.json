@@ -1,0 +1,240 @@
+[
+    {
+        "bs_gt": {
+            "attraction-type": "entertainment",
+            "attraction-area": "centre"
+        },
+        "bs_pred": {
+            "attraction-type": "entertainment",
+            "attraction-area": "centre of town"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nplease help me identify place -s to go in the centre of town that are entertainment attractions .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "train-destination": "cambridge",
+            "train-day": "wednesday",
+            "train-arriveby": "20:45",
+            "train-departure": "birmingham new street"
+        },
+        "bs_pred": {
+            "train-arriveby": "20:45",
+            "train-destination": "cambridge",
+            "train-departure": "birmingham new street",
+            "train-day": "wednesday"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi , i am looking for a train that is going to cambridge and arriving there by 20:45 , is there anything like that ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are over 1,000 trains like that . where will you be departing from ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am departing from birmingham new street .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ncan you confirm your desired travel day ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to leave on wednesday<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "hotel-pricerange": "cheap",
+            "hotel-type": "hotel"
+        },
+        "bs_pred": {
+            "hotel-pricerange": "cheap",
+            "hotel-type": "hotel"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nam looking for a place to to stay that has cheap price range it should be in a type of hotel<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "thai"
+        },
+        "bs_pred": {
+            "restaurant-food": "thai"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you help me find some thai food to eat tonight ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "hotel-bookday": "saturday",
+            "hotel-bookpeople": "6",
+            "hotel-bookstay": "4",
+            "hotel-name": "city centre north bed and breakfast"
+        },
+        "bs_pred": {
+            "hotel-name": "city centre north bed and breakfast",
+            "hotel-bookday": "saturday",
+            "hotel-bookstay": "4 nights",
+            "hotel-bookpeople": "6 people"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for information about the city centre north bed and breakfast hotel . can you help me with that ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyes ! city centre north bed and breakfast is an inexpensively priced guest house in the north of town at 328a histon road . would you like to book a room ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes can i book it for 6 people starting on saturday for 4 nights please ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "expensive",
+            "restaurant-area": "south"
+        },
+        "bs_pred": {
+            "restaurant-pricerange": "expensive",
+            "restaurant-area": "south side of town"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nplease find me an expensive place to dine on the south side of town<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {},
+        "bs_pred": {},
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for some attractions in the centre .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "hotel-area": "north"
+        },
+        "bs_pred": {
+            "hotel-area": "north"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a place to stay in the north please .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "train-day": "friday",
+            "train-arriveby": "11:30"
+        },
+        "bs_pred": {
+            "train-arriveby": "11:30",
+            "train-day": "friday"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi ! i am looking for a train that arrives by 11:30 on friday .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-bookday": "wednesday",
+            "restaurant-bookpeople": "3",
+            "restaurant-booktime": "13:45",
+            "restaurant-food": "chinese",
+            "restaurant-pricerange": "expensive",
+            "restaurant-name": "good luck",
+            "restaurant-area": "south"
+        },
+        "bs_pred": {
+            "restaurant-pricerange": "expensive",
+            "restaurant-area": "south side of town",
+            "restaurant-name": "good luck chinese food takeaway",
+            "restaurant-food": "chinese",
+            "restaurant-bookday": "wednesday",
+            "restaurant-booktime": "13:45",
+            "restaurant-bookpeople": "3"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nplease find me an expensive place to dine on the south side of town<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure , we have chinese , indian , italian or mexican that you could choose from .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhow about chinese .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , how about the good luck chinese food takeaway ? will that work for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , that sounds good ! book a table for 3 at 13:45 please .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni'll be happy to help you with that . what day would you like the reservation for ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to make it for wednesday . can you include the reference number ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {},
+        "bs_pred": {},
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you please help me find a place to go ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "hotel-area": "north"
+        },
+        "bs_pred": {
+            "hotel-area": "north"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a place to stay in the north part of town .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "train-bookpeople": "5",
+            "train-leaveat": "09:29",
+            "train-destination": "cambridge",
+            "train-day": "friday",
+            "train-arriveby": "11:30",
+            "train-departure": "bishops stortford"
+        },
+        "bs_pred": {
+            "train-arriveby": "11:30",
+            "train-day": "friday",
+            "train-leaveat": "09:29",
+            "train-departure": "bishops stortford",
+            "train-destination": "cambridge",
+            "train-bookpeople": "5"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi ! i am looking for a train that arrives by 11:30 on friday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have 122 trains that are arriving by 11:30 . do you know where the train is coming from ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthe train should depart from bishops stortford and should go to cambridge .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ntr2083 leaves bishops stortford at 09:29 on friday and arrives in cambridge at 10:07 . would you like to purchase tickets ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes please . i will need 5 seats .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "british",
+            "restaurant-pricerange": "moderate",
+            "restaurant-name": "the oak bistro",
+            "restaurant-area": "centre"
+        },
+        "bs_pred": {
+            "restaurant-name": "the oak bistro",
+            "restaurant-food": "british",
+            "restaurant-area": "centre",
+            "restaurant-pricerange": "moderate"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am seeking a restaurant that serves british food in the centre .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have about 7 different options for you . do you have a certain price range in mind ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like a moderate -ly priced 1 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 4 restaurant -s that match that criteria which are restaurant 17 , the oak bistro , the copper kettle , and cotto . which 1 would you be interested in ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like the oak bistro .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "train-leaveat": "14:30",
+            "train-destination": "ely"
+        },
+        "bs_pred": {
+            "train-destination": "ely",
+            "train-leaveat": "14:30"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi . im looking for a train to ely that leaves after 14:30 .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-area": "centre"
+        },
+        "bs_pred": {
+            "restaurant-area": "centre"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you help me find a restaurant ? i want to find a place in the centre .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "hotel-bookday": "monday",
+            "hotel-bookpeople": "8",
+            "hotel-bookstay": "2",
+            "hotel-name": "autumn house"
+        },
+        "bs_pred": {
+            "hotel-bookpeople": "8",
+            "hotel-bookstay": "2",
+            "hotel-bookday": "monday",
+            "hotel-name": "autumn house"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a particular hotel . its name is called autumn house<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have the autumn house . it is at 710 newmarket road . would you like the phone number ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno thanks . would you book the autumn house for me starting on monday , please .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nhow many people would be staying and how many days will you be staying ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat s for 8 people and it s for 2 nights .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "modern european",
+            "restaurant-pricerange": "moderate"
+        },
+        "bs_pred": {
+            "restaurant-food": "modern european",
+            "restaurant-pricerange": "moderate"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a restaurant that serves modern european food at a reasonable price .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "hotel-bookday": "sunday",
+            "hotel-bookpeople": "5",
+            "hotel-bookstay": "4",
+            "hotel-name": "leverton house"
+        },
+        "bs_pred": {
+            "hotel-name": "the leverton house",
+            "hotel-bookstay": "4 nights",
+            "hotel-bookday": "sunday",
+            "hotel-bookpeople": "5 people"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a hotel called the leverton house . can you help me find it ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure . it s located at 732734 newmarket road . can i help you with anything else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes . i would like to book it for 4 nights , starting sunday . 5 people .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "centre"
+        },
+        "bs_pred": {
+            "restaurant-area": "centre of town",
+            "restaurant-pricerange": "moderate price range"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a restaurant in the centre of town in the moderate price range .<|eot_id|>\n"
+    }
+]

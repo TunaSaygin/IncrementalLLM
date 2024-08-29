@@ -1,0 +1,882 @@
+[
+    {
+        "bs_gt": {
+            "restaurant-food": "dontcare",
+            "restaurant-area": "south"
+        },
+        "bs_pred": {},
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhey , i am up south can you give me a place to eat ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwhat kind of food would you like ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ndo not care .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-area": "centre",
+            "train-bookpeople": "3",
+            "train-destination": "cambridge",
+            "train-day": "friday",
+            "train-arriveby": "15:15",
+            "train-departure": "london kings cross"
+        },
+        "bs_pred": {
+            "train-leaveat": "friday",
+            "train-destination": "cambridge",
+            "train-arriveby": "15:15",
+            "train-departure": "london kings cross",
+            "train-bookpeople": "3"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am traveling to cambridge and i need a train that leaves on friday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwhere will you be coming from , and what time would you like to depart from there ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to get on the train at london kings cross and arrive in cambridge by 15:15 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ntr4748 leaves kings cross at 13:17 and arrives at 14:08 . will that work ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat sounds perfect ! can i purchase 3 tickets on that train , please ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nok , 3 tickets are booked ! your reference number is bdjacgot . can i help you with anything else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i would also like a place to eat near the centre area . can you assist me with that ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "chinese",
+            "restaurant-area": "north",
+            "hotel-name": "arbury lodge guest house",
+            "hotel-area": "north",
+            "hotel-parking": "yes",
+            "hotel-internet": "yes",
+            "hotel-type": "dontcare"
+        },
+        "bs_pred": {
+            "hotel-internet": "",
+            "hotel-type": "",
+            "hotel-parking": "",
+            "hotel-pricerange": "moderate",
+            "hotel-phone": "01223364319",
+            "restaurant-food": "chinese"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan i get information on place -s to stay in the north that have free internet ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure , do you prefer a guest house or a hotel ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not have a preference . i will need parking too .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni would suggest this place arbury lodge guest house . is that okay ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ngetme its price range , phone number and hotel type<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\narbury lodge guest house is a guest house in the moderate price range , and the phone is 01223364319 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ndo you have any restaurant -s near there with chinese food ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "west",
+            "train-bookpeople": "1",
+            "train-destination": "cambridge",
+            "train-day": "thursday",
+            "train-arriveby": "13:45",
+            "train-departure": "london liverpool street"
+        },
+        "bs_pred": {
+            "train-arriveby": "13:45",
+            "train-day": "Thursday",
+            "train-leaveat": "London Liverpool Street",
+            "train-destination": "Cambridge",
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "West"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a train on thursday going to cambridge .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure , where will you be leaving from ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ndeparting from london liverpool street going to cambridge arriving by 13:45 on thursday please .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe tr8805 arrives by 1:07 . how many tickets would you like ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\njust 1 , please<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyou are booked for this train and the fee is 16.60 gbp payable at the station . your reference number is ke8grdrb . can i help you with anything else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthanks . i also need to find a place to dine . i am looking for something moderate in price and in the west .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-area": "centre",
+            "attraction-type": "architecture",
+            "attraction-name": "great saint marys church",
+            "attraction-area": "centre"
+        },
+        "bs_pred": {
+            "attraction-name": "great saint mary s church"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi , i am looking for something to do in the centre of cambridge that would be entertainment based .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , i have no entertainment listings in the city centre . would you like to try another area ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you find some interesting architecture then ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 5 options . great saint mary s church is a great option .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nsounds great , can i have the phone number , entrance fee , and the postcode please ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ngreat st mary s church entrance fee is 2 pounds , their phone number is 01223350914 , and the post code is cb23pq .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am also looking for a place to eat in the same area .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "unusual",
+            "restaurant-area": "east",
+            "train-leaveat": "none",
+            "train-destination": "cambridge",
+            "train-day": "thursday",
+            "train-arriveby": "12:30",
+            "train-departure": "leicester"
+        },
+        "bs_pred": {
+            "train-arriveby": "12:30",
+            "train-departure": "10:09",
+            "train-destination": "cambridge",
+            "train-bookpeople": "1",
+            "train-leaveat": "10:09",
+            "train-pricerange": "expensive",
+            "train-id": "tr2058",
+            "restaurant-area": "east cambridge",
+            "restaurant-food": "unusual foods"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a training heading out from leicester that leaves on thursday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are multiple trains leaving for leicester on thursday . what time would you like to depart ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to go to cambridge and arrive by 12:30 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 6 trains that leave leicester and arrive in cambridge by 12:30 , what time would you like to leave by ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not care what time i leave . i do need the price and train id though .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere is a train departing at 10:09 and arriving at 11:54 with a ticket cost of 37.80 pounds . trainid is tr2058 . shall i book that for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes please . i am also looking for a place to eat . are there any restaurant -s in east cambridge that serve unusual foods ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "south",
+            "hotel-bookday": "saturday",
+            "hotel-bookpeople": "2",
+            "hotel-bookstay": "3",
+            "hotel-name": "el shaddia guest house",
+            "hotel-area": "centre",
+            "hotel-parking": "yes",
+            "hotel-stars": "3",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "restaurant-name": "pizza hut cherry hinton",
+            "restaurant-food": "italian",
+            "restaurant-area": "south side",
+            "restaurant-bookday": "upcoming trip",
+            "restaurant-pricerange": "moderate",
+            "hotel-stars": "3",
+            "hotel-parking": "free",
+            "hotel-bookstay": "3 nights",
+            "hotel-bookpeople": "2 people",
+            "hotel-bookday": "saturday",
+            "hotel-name": "el shaddai",
+            "hotel-area": "city centre"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a restaurant to dine at in cambridge on my upcoming trip .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are lots to choose from . what type of cuisine are you looking for ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not care . it needs to be on the south side and moderate -ly priced .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 2 options , pizza hut cherry hinton which serves italian and restaurant alimentum which serves modern european . can i book you for those ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes please . i also need a hotel with at least 3 stars and free parking .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere is no hotel in south side , do you want me to try different area ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhow about a guest house in south side instead ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , there is no guest house that meets those criteria , either . would you like to try a different rating , or a different area ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nsure , what about in the city centre ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am not finding a guest house that meets your criteria . might a hotel work ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nis there not 1 in the same area as the restaurant ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 2 , the alexander bed and breakfast 4 star or the el shaddai 0 star . both are in the cheap range and in the centre .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nokay . can you try booking the el shaddai for me fo saturday for 2 people for 3 nights .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "european",
+            "restaurant-pricerange": "expensive",
+            "restaurant-area": "north",
+            "train-leaveat": "08:00",
+            "train-destination": "cambridge",
+            "train-day": "monday",
+            "train-departure": "kings lynn"
+        },
+        "bs_pred": {
+            "train-leaveat": "08:11",
+            "train-arriveby": "friday",
+            "train-day": "monday",
+            "train-destination": "cambridge",
+            "train-departure": "kings lynn",
+            "train-bookpeople": null,
+            "restaurant-name": "city stop restaurant",
+            "restaurant-food": "european",
+            "restaurant-bookday": null,
+            "restaurant-booktime": null,
+            "restaurant-bookpeople": null,
+            "restaurant-pricerange": "expensive"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a train headed to cambridge that leaves after 8:00 am . can you help ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyes , i can help with that . what day will you be leaving and where are you departing from ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni will leave from cambridge to kings lynn .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe earliest train on that route leaves friday at 08:11 is that okay ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , sorry , i had that backwards . i need a train from kings lynn to cambridge on monday after 08:00<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe earliest train will leave at 08:11 . is that okay ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes can i get the train id and arrival time please ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure its tr4758 and it will arrive at 08:58<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would also like to find an expensive restaurant that serves european food .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have 5 expensive european restaurant -s . what area of town would you like to be in ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nin the north .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere is 1 high end european restaurant in the north city stop restaurant . would you like to make a reservation ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you book it for me and get a reference number ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "south",
+            "hotel-bookday": "saturday",
+            "hotel-bookpeople": "2",
+            "hotel-bookstay": "3",
+            "hotel-name": "el shaddia guest house",
+            "hotel-area": "centre",
+            "hotel-parking": "yes",
+            "hotel-stars": "3",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "restaurant-name": "pizza hut cherry hinton",
+            "restaurant-food": "italian",
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "south side",
+            "restaurant-bookday": "upcoming trip",
+            "restaurant-booktime": "no time specified",
+            "restaurant-bookpeople": "no people specified",
+            "hotel-name": "el shaddai",
+            "hotel-stars": "0 star",
+            "hotel-pricerange": "cheap",
+            "hotel-area": "city centre",
+            "hotel-bookday": "saturday",
+            "hotel-bookstay": "3 nights",
+            "hotel-bookpeople": "2 people"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a restaurant to dine at in cambridge on my upcoming trip .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are lots to choose from . what type of cuisine are you looking for ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not care . it needs to be on the south side and moderate -ly priced .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 2 options , pizza hut cherry hinton which serves italian and restaurant alimentum which serves modern european . can i book you for those ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes please . i also need a hotel with at least 3 stars and free parking .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere is no hotel in south side , do you want me to try different area ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhow about a guest house in south side instead ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , there is no guest house that meets those criteria , either . would you like to try a different rating , or a different area ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nsure , what about in the city centre ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am not finding a guest house that meets your criteria . might a hotel work ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nis there not 1 in the same area as the restaurant ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 2 , the alexander bed and breakfast 4 star or the el shaddai 0 star . both are in the cheap range and in the centre .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nokay . can you try booking the el shaddai for me fo saturday for 2 people for 3 nights .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe booking was successful . your reference number is s8lzab9p . is there anything else i can help with today ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno that would be everything , thank you !<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "indian",
+            "restaurant-pricerange": "expensive",
+            "restaurant-area": "dontcare",
+            "train-destination": "stansted airport",
+            "train-day": "wednesday",
+            "train-arriveby": "18:45",
+            "train-departure": "cambridge"
+        },
+        "bs_pred": {
+            "train-leaveat": "wednesday",
+            "train-destination": "stansted airport",
+            "train-arriveby": "18:45",
+            "restaurant-pricerange": "expensive",
+            "restaurant-food": "australian",
+            "train-bookpeople": "1"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you help me with planning my trip ? i need a train for wednesday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni can definitely help you with that . which station will you be leaving from and arriving ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am leaving from cambridge and going to the stansted airport .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwhat time would you like to arrive or leave by ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need to arrive by 18:45 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nhow about train tr1610 ? it arrives by 06:08<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ngreat , thanks . i am also looking for a restaurant . can you help me with that ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwould you like to eat in cambridge or by the airport ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nan expensive restaurant that serves awesome australian food . if not i guess indian will do .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are australian restaurant -s in the area however there are 22 indian restaurant -s . is there an area of town you prefer ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not care what area of town it s in , but if there s no australian place -s , 1 of the indian restaurant -s will do . pick your favorite and give me their contact info ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "south",
+            "hotel-bookday": "saturday",
+            "hotel-bookpeople": "2",
+            "hotel-bookstay": "3",
+            "hotel-name": "el shaddia guest house",
+            "hotel-area": "centre",
+            "hotel-parking": "yes",
+            "hotel-stars": "3",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "hotel-name": "el shaddai",
+            "hotel-bookday": "saturday",
+            "hotel-bookstay": "3 nights",
+            "hotel-bookpeople": "2 people",
+            "restaurant-name": "pizza hut cherry hinton",
+            "restaurant-food": "italian",
+            "restaurant-bookday": "upcoming trip",
+            "restaurant-booktime": "moderate",
+            "restaurant-bookpeople": "2 people",
+            "restaurant-pricerange": "moderate",
+            "hotel-type": "4 star",
+            "hotel-parking": "free parking",
+            "hotel-area": "city centre",
+            "hotel-stars": "3 stars",
+            "hotel-pricerange": "cheap range"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a restaurant to dine at in cambridge on my upcoming trip .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are lots to choose from . what type of cuisine are you looking for ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not care . it needs to be on the south side and moderate -ly priced .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 2 options , pizza hut cherry hinton which serves italian and restaurant alimentum which serves modern european . can i book you for those ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes please . i also need a hotel with at least 3 stars and free parking .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere is no hotel in south side , do you want me to try different area ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhow about a guest house in south side instead ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , there is no guest house that meets those criteria , either . would you like to try a different rating , or a different area ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nsure , what about in the city centre ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am not finding a guest house that meets your criteria . might a hotel work ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nis there not 1 in the same area as the restaurant ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 2 , the alexander bed and breakfast 4 star or the el shaddai 0 star . both are in the cheap range and in the centre .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nokay . can you try booking the el shaddai for me fo saturday for 2 people for 3 nights .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe booking was successful . your reference number is s8lzab9p . is there anything else i can help with today ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno that would be everything , thank you !<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay ! glad i could help . enjoy your stay .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you , i will .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "spanish|portuguese",
+            "restaurant-area": "north"
+        },
+        "bs_pred": {
+            "restaurant-name": "abc",
+            "restaurant-food": "xyz"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a restaurant in the north part of town that serves brazilian food .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are no mathcing records found for that request<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhow about spanish or portuguese food ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-area": "east",
+            "hotel-bookday": "monday",
+            "hotel-bookpeople": "3",
+            "hotel-bookstay": "3",
+            "hotel-name": "autumn house",
+            "hotel-area": "east",
+            "hotel-pricerange": "dontcare",
+            "hotel-stars": "4",
+            "hotel-internet": "yes",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "hotel-stars": "4",
+            "hotel-internet": "yes",
+            "hotel-area": "east side",
+            "hotel-bookstay": "3 nights",
+            "hotel-bookpeople": "3",
+            "hotel-bookday": "monday",
+            "restaurant-name": "near the hotel",
+            "restaurant-food": "local",
+            "restaurant-area": "near the hotel"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi , i am looking forward to trying some of your local restaurant -s . can you help me find a place to stay while i am there ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ndo you have a price range preference ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not really mind about price , but i would like a 4 star guest house with wifi located on the east side .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , i recommend autumn house . would you like me to make a reservation ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes i would . i need it for 3 nights & 3 people starting on monday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nbooking was successful . reference number is : dke7156l . is there anything else i can help with ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you tell me about the restaurant -s neat the hotel ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "modern european",
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "south",
+            "train-leaveat": "18:45",
+            "train-destination": "london liverpool street",
+            "train-day": "saturday",
+            "train-departure": "none"
+        },
+        "bs_pred": {
+            "train-leaveat": "18:45",
+            "train-destination": "london liverpool street",
+            "train-departure": "london kings cross",
+            "train-bookpeople": "1",
+            "restaurant-pricerange": "moderate",
+            "restaurant-food": "modern european"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi there , i am trying to book a train for saturday that leaves after 18:45 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni can book tickets that leave london kings cross that leaves at 19:17 ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , i do not really want to go there . i would like to go to london liverpool street .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have 1 leaving at 19:59 , if that s acceptable ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan i get the travel time and train id ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nit is train train tr2166 and the travel time is 88 minutes . would you like me to book your ticket ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nnot just yet . can you find me a place to dine in the south ? moderate pricing please .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 2 restaurant -s , would you like italian or modern european ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nooh , modern european sounds interesting . what have you got ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "indian",
+            "restaurant-area": "east",
+            "hotel-bookday": "monday",
+            "hotel-bookpeople": "3",
+            "hotel-bookstay": "3",
+            "hotel-name": "autumn house",
+            "hotel-area": "east",
+            "hotel-pricerange": "dontcare",
+            "hotel-stars": "4",
+            "hotel-internet": "yes",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "restaurant-name": "nearest indian restaurant",
+            "restaurant-food": "indian food"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi , i am looking forward to trying some of your local restaurant -s . can you help me find a place to stay while i am there ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ndo you have a price range preference ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not really mind about price , but i would like a 4 star guest house with wifi located on the east side .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , i recommend autumn house . would you like me to make a reservation ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes i would . i need it for 3 nights & 3 people starting on monday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nbooking was successful . reference number is : dke7156l . is there anything else i can help with ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you tell me about the restaurant -s neat the hotel ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure i have chinese , indian , gastropubed and breakfastritish food to name a few . some expensive . some moderate .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for indian food .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "eritrean",
+            "restaurant-area": "centre",
+            "train-bookpeople": "4",
+            "train-destination": "cambridge",
+            "train-day": "saturday",
+            "train-arriveby": "10:15",
+            "train-departure": "leicester"
+        },
+        "bs_pred": {
+            "train-leaveat": "08:09",
+            "train-arriveby": "09:54",
+            "train-departure": "leicester",
+            "train-destination": "cambridge",
+            "train-day": "saturday",
+            "train-bookpeople": "4",
+            "restaurant-name": "eritrean food",
+            "restaurant-area": "centre of town"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a train departing from leicester and going to cambridge on saturday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are many trains available for you . do you have a departure or arrival time in mind ? the trip will take 105 minutes .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthe train should depart from leicester and should leave on saturday . the train should go to cambridge and should arrive by 10:15<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , the tr2969 leaves at 08:09 and arrives at 09:54 . would you like me to book tickets ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , please for 4 people . may i also get the reference number ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , your booking was successful ! your reference number is 5fhhno0k . the total fee is 120.06 and you can pay that at the station .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am also in the market for a new restaurant . is there something in the centre of town ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 69 restaurant -s in the centre . can i narrow it down by price for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am independently wealthy and price does not matter , i am interested more in eritrean food , do you have any with that ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "cheap",
+            "restaurant-name": "nandos",
+            "restaurant-area": "south",
+            "hotel-name": "rosas bed and breakfast",
+            "hotel-area": "south",
+            "hotel-pricerange": "cheap",
+            "hotel-stars": "4",
+            "hotel-internet": "yes",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "restaurant-name": "nados",
+            "restaurant-food": "portuguese",
+            "restaurant-area": "south side of town",
+            "hotel-name": "rosa s bed and breakfast",
+            "hotel-stars": "4",
+            "hotel-internet": "free wifi"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a cheap place to eat on the south side of town .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ngreat , i have 2 place -s to recommend . nados serves portuguese and the lucky star serves chinese . which 1 do you like ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nnados serves portuguese sounds good can i get a address , food type , and phone number ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe address is cambridge leisure park clifton way and the phone number is 01223327908 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nexcellent . i also need to find a place to stay while in town . can you help me find a cheap hotel ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyes i can help . will you be staying on the south side as well ? do you have any accommodation requirement -s ? thanks .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i'll be staying on the south side so a cheap 4 star guest house with free wifi will do<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni found rosa s bed and breakfast for you . would you like me to book it ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan i just get the address please ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "seafood",
+            "restaurant-area": "centre",
+            "train-bookpeople": "7",
+            "train-destination": "cambridge",
+            "train-day": "wednesday",
+            "train-arriveby": "08:00",
+            "train-departure": "stevenage"
+        },
+        "bs_pred": {
+            "restaurant-food": "seafood",
+            "restaurant-area": "center of the city",
+            "train-arriveby": "stevenage",
+            "train-day": "wednesday",
+            "train-leaveat": "08:00",
+            "train-bookpeople": "7"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a restaurant that sell seafood , will prefer 1 in the center of the city .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , there seems to be an error . can you please restate your request ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like a train into cambridge from stevenage .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nis there a specific day and time you would like to travel at ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i would like to travel on wednesday . i'll need to arrive by 8:00 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe tr9448 arrives at 06:43 . would you like me to book a ticket for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , please book 7 seats .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "cheap",
+            "restaurant-name": "nandos",
+            "restaurant-area": "south",
+            "hotel-name": "rosas bed and breakfast",
+            "hotel-area": "south",
+            "hotel-pricerange": "cheap",
+            "hotel-stars": "4",
+            "hotel-internet": "yes",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "restaurant-name": "nados",
+            "restaurant-food": "portuguese",
+            "restaurant-area": "south side of town",
+            "hotel-stars": "4",
+            "hotel-internet": "free wifi",
+            "hotel-area": "south side of town",
+            "hotel-name": "rosa s bed and breakfast"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a cheap place to eat on the south side of town .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ngreat , i have 2 place -s to recommend . nados serves portuguese and the lucky star serves chinese . which 1 do you like ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nnados serves portuguese sounds good can i get a address , food type , and phone number ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe address is cambridge leisure park clifton way and the phone number is 01223327908 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nexcellent . i also need to find a place to stay while in town . can you help me find a cheap hotel ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyes i can help . will you be staying on the south side as well ? do you have any accommodation requirement -s ? thanks .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i'll be staying on the south side so a cheap 4 star guest house with free wifi will do<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni found rosa s bed and breakfast for you . would you like me to book it ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan i just get the address please ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure the address is 53 roseford road . do you need anything else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , that s all i need .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "italian",
+            "restaurant-area": "centre",
+            "train-bookpeople": "2",
+            "train-leaveat": "15:15",
+            "train-destination": "cambridge",
+            "train-day": "saturday",
+            "train-departure": "broxbourne"
+        },
+        "bs_pred": {
+            "train-destination": "cambridge",
+            "train-departure": "broxbourne",
+            "train-day": "saturday",
+            "train-arriveby": "after 15:15",
+            "train-bookpeople": "2 people",
+            "restaurant-food": "italian",
+            "restaurant-area": "center of town"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a train schedule after 15:15 , going to cambridge .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are several trains available for you . where are you departing from and what day would you prefer ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am leaving from broxbourne to leave on saturday after 15:15<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nis there a time you would prefer to arrive ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , but i would like the booking made for 2 people .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nbooking was successful , the total fee is 35.79 gbp payable at the station . reference number is : n5flmfk9 . anything else you need ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , are there any italian restaurant -s in the center of town ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "expensive",
+            "restaurant-area": "centre",
+            "hotel-name": "university arms hotel",
+            "hotel-parking": "yes",
+            "hotel-pricerange": "expensive",
+            "hotel-stars": "4",
+            "hotel-internet": "none"
+        },
+        "bs_pred": {
+            "hotel-name": "university arms hotel",
+            "hotel-type": "4 star",
+            "hotel-parking": "free parking",
+            "hotel-internet": "does not need to include internet",
+            "restaurant-name": "place to eat in that same area",
+            "restaurant-pricerange": "same price range as well"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a 4 star place to stay , it does not need to include internet .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure , do you have any other preferences i can add to my search ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes expensive price range and free parking<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nmay i suggest university arms hotel ? it has free parking and internet . would you like a reservation ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ngreat . that will work .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nok , the university arms hotel is on regent street . do you want me to place a booking for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno . get me the address , area and post code .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsorry about that , the university arms hotel is in the centre area and is located on regent street , cb21ad .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthanks . i am also looking for a place to eat in that same area , same price range as well .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "taxi-leaveat": "16:15",
+            "taxi-destination": "pizza hut cherry hinton",
+            "taxi-departure": "wandlebury country park",
+            "restaurant-food": "italian",
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "south",
+            "attraction-type": "park",
+            "attraction-name": "wandlebury country park",
+            "attraction-area": "south"
+        },
+        "bs_pred": {
+            "restaurant-name": "Pizza Hut",
+            "restaurant-food": "Italian",
+            "restaurant-area": "South",
+            "restaurant-phone": "01223323737",
+            "restaurant-address": "G4 Cambridge Leisure Park Clifton Way Cherry Hinton",
+            "taxi-destination": "Park to Restaurant",
+            "taxi-leaveat": "16:15"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for boats to look at . can you look in the south ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am afraid we do not have any boats in the south . would you like to try another area ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nare there any boats in the park ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are only 4 boat attractions in town . camboats in the east . riverboat georgina is in the north . scudamores punting company and the cambridge punter are in the centre of town .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you . are there any parks in the south ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 2 , both free . they are sheep s green and lammas land park fen causeway , and other is wandlebury country park . would you like information on either 1 ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould i get the entrance fee for wandlebury country park please ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe park is free . there is no entrance fee .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you help me find a restaurant in that area ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 9 place -s in the south any preference on restaurant type or price range ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like a moderate -ly priced italian place .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe pizza hut cherry hinton is located in the south and has a moderate price range . would you like more information ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i need to get their phone number and address , please .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ntheir phone number is 01223323737 , and they are located at g4 cambridge leisure park clifton way cherry hinton .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthanks , could you also book me a taxi between the 2 location -s please ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni can arrange a car for you if you will tell me whether you will be travelling from the park to the restaurant or vice versa , and tell me the date and time .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need to leave the park by 16:15 .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-area": "centre",
+            "hotel-bookday": "wednesday",
+            "hotel-pricerange": "expensive",
+            "hotel-stars": "3"
+        },
+        "bs_pred": {
+            "hotel-name": "Gonville Hotel",
+            "hotel-type": "3 star",
+            "hotel-parking": "available",
+            "hotel-area": "Cambridge",
+            "hotel-bookday": null,
+            "hotel-bookstay": null,
+            "hotel-internet": null,
+            "hotel-bookpeople": null,
+            "hotel-stars": "3",
+            "hotel-pricerange": "expensive",
+            "restaurant-name": null,
+            "restaurant-food": null,
+            "restaurant-area": null,
+            "restaurant-bookday": null,
+            "restaurant-booktime": null,
+            "restaurant-bookpeople": null,
+            "restaurant-pricerange": null,
+            "attraction-name": null,
+            "attraction-type": null,
+            "attraction-area": null,
+            "taxi-arriveby": null,
+            "taxi-departure": null,
+            "taxi-leaveat": null,
+            "taxi-destination": null,
+            "train-arriveby": null,
+            "train-day": null,
+            "train-leaveat": null,
+            "train-destination": null,
+            "train-departure": null,
+            "train-bookpeople": null
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a 3 star expensive place to stay in cambridge .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe gonville hotel is available and fits your requirement -s if you would like to book that just let me know .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat sounds good !<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwhen would you like me to book this for you and how many people will be staying ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to travel there myself , may i have the address ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe address is gonville place . can i help you with anything else today ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am also looking for place -s to that are near the hotel<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "gastropub",
+            "restaurant-name": "royal standard",
+            "restaurant-area": "east",
+            "train-bookpeople": "1",
+            "train-destination": "leicester",
+            "train-day": "saturday",
+            "train-arriveby": "11:45",
+            "train-departure": "cambridge"
+        },
+        "bs_pred": {
+            "restaurant-name": "the royal standard",
+            "restaurant-food": "gastropub",
+            "train-arriveby": "11:45",
+            "train-day": "saturday",
+            "train-leaveat": "cambridge",
+            "train-destination": "leicester",
+            "train-departure": "cambridge",
+            "train-bookpeople": "1"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a gastropub in the east .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe royal standard is a gastropub located in the east .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you please provide the phone number , address and postcode for the royal standard ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nphone number: 01223247877 . post code: cb13nl , address 290 mill road city centre . anything else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ngreat can i also get a train going to leicester and arriving by 11:45 ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwhere will you be departing from and what day would you like to travel ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncambridge , and i will be traveling on saturday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ntr5677 will arrive at 11:06 would that work for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you get me the price of that train and the travel time before you book it ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have tr5677 arriving at leicester by 11:06 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you give me the travel time and total cost please ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\n105 minutes . 30.24 pounds .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nok thank you so mucy<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nok great . would you like for me to go ahead and book the train for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , please book the train for me . that will be all .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ndo you just need the 1 ticket , or will others be travelling with you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno just the 1 . thank you .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyour booking was successful , the total fee is 30.24 gbp payable at the station . reference number is : lv1beg9r .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you so much ! that s all i need .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-area": "centre",
+            "hotel-bookday": "wednesday",
+            "hotel-pricerange": "expensive",
+            "hotel-stars": "3"
+        },
+        "bs_pred": {
+            "hotel-stars": "3",
+            "hotel-pricerange": "expensive",
+            "hotel-name": "Gonville Hotel",
+            "hotel-area": "centre",
+            "hotel-internet": "free wifi"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a 3 star expensive place to stay in cambridge .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe gonville hotel is available and fits your requirement -s if you would like to book that just let me know .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat sounds good !<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwhen would you like me to book this for you and how many people will be staying ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to travel there myself , may i have the address ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe address is gonville place . can i help you with anything else today ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am also looking for place -s to that are near the hotel<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyes certainly . do you have a food type or price range preference ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni forgot to ask , does the gonville hotel include free wifi and is it in the centre ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "indian",
+            "restaurant-area": "south",
+            "attraction-type": "entertainment",
+            "attraction-name": "funky fun house"
+        },
+        "bs_pred": {
+            "restaurant-name": "funky fun house",
+            "restaurant-food": "indian food",
+            "restaurant-area": "south side",
+            "restaurant-pricerange": "expensive"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni was hoping to see local place -s while in cambridge . some entertainment would be great .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni got 5 options . which side is okay for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nit does not matter . can i have the address of a good 1 ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nhow about funky fun house , they are located at 8 mercers row , mercers row industrial estate .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould i also get the phone number and postcode ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure . the phone number is 01223304705 , and the postcode is cb58hy . is there anything else i can assist you with ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i need a restuarant . i want something on the south side . expensive .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are many . what kind of food would you like ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nindian food is my favorite ! what s the address for the best 1 ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nunfortunately , there are not any indian restaurant -s in the south side of town , would you like me to look in other area -s ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you check 1 more time ? restaurant in the south part of town , expensive , that serves indian food ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry there does not seem to be any expensive indian restaurant -s to the south .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you check again for a 3rd time ? i really want to eat indian food .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nplease stop asking to check for the same thing . i have said there is none in the south try a different area .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ndo you have any indian restaurant -s in the south in a different price range ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nhi this is the supervisor . i apologize for the attitude of our staff . we do have taj tandoori , and expensive indian restaurant in the south . would you like me to book ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you . may i have the address ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe address is 64 cherry hinton road cherry hinton . can i help you with anything else today ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat s all i need , thanks so much for all of your help ! have a great day !<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyou are welcome<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nalso , thanks for the apology . i do not need anything else at this time .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "west",
+            "train-bookpeople": "1",
+            "train-leaveat": "14:15",
+            "train-destination": "norwich",
+            "train-day": "friday",
+            "train-departure": "cambridge"
+        },
+        "bs_pred": {
+            "train-leaveat": "15:00",
+            "train-destination": "norwich",
+            "train-arriveby": "friday",
+            "train-bookpeople": "1",
+            "train-departure": "cambridge"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need to get out of the city on friday , can you find me a train ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are many options available to you on friday . where would you be leaving from ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to depart from cambridge .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwould train tr5767 work ? it leavees at 05:00 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , we are going to norwich and need to leave after 14:15 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ntr2420 leaves at 15:00 . would you like me to book it for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , please . i need 1 ticket .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have made that reservation for you on train tr2420 and your reference number is 2a3lmyl1 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni also need to find a restaurant in the west with a moderate price range .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-area": "centre",
+            "hotel-name": "cityroomz",
+            "hotel-internet": "yes"
+        },
+        "bs_pred": {
+            "hotel-bookstay": "cityroomz",
+            "hotel-internet": "free",
+            "restaurant": "centre of town"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like more information on a hotel called cityroomz for my trip to cambridge .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ncityroomz is a moderate priced accommodation , located in the city centre , on station road . may i assist with a booking ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , i just need to know if they have free internet .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyes , cityroomz does have free wifi . is there anything else i can help you with ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni also would like information on a place to eat in the centre of town .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "british",
+            "restaurant-pricerange": "moderate",
+            "restaurant-area": "west",
+            "train-bookpeople": "1",
+            "train-leaveat": "14:15",
+            "train-destination": "norwich",
+            "train-day": "friday",
+            "train-departure": "cambridge"
+        },
+        "bs_pred": {
+            "train-leaveat": "15:00",
+            "train-destination": "norwich",
+            "train-bookpeople": "1",
+            "restaurant-food": "british",
+            "restaurant-pricerange": "moderate"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need to get out of the city on friday , can you find me a train ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are many options available to you on friday . where would you be leaving from ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to depart from cambridge .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwould train tr5767 work ? it leavees at 05:00 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , we are going to norwich and need to leave after 14:15 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ntr2420 leaves at 15:00 . would you like me to book it for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , please . i need 1 ticket .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have made that reservation for you on train tr2420 and your reference number is 2a3lmyl1 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni also need to find a restaurant in the west with a moderate price range .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni have 3 options with a moderate price range in the west . would you prefer british , indian , or italian ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ndo you have any options in the west with greek food ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , we do not have any greek restaurant -s any where in town . is there anything else that would work ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhow about 1 that serves british food ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-area": "centre",
+            "attraction-type": "swimming pool",
+            "attraction-area": "centre"
+        },
+        "bs_pred": {
+            "attraction-name": "parks for kid -s or a water slide",
+            "attraction-type": "parks for kid -s or a water slide",
+            "attraction-area": "centre",
+            "restaurant-name": "restaurant that is in the same area as the parkside pools",
+            "restaurant-area": "same area as the parkside pools"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for some attractions in the centre .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwhat type of attraction are you looking for ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nparks for kid -s or a water slide<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere is parkside pools in the centre . is there anything else i can help you with today ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need the entrance fee , phone number , and postcode .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure , the phone number is 01223446100 and the post code is cb11ly , and my records do not show what the entrance fee is .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you , can you also help me find a restaurant that is in the same area as the parkside pools ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "taxi-destination": "royal spice",
+            "taxi-departure": "cambridge belfry",
+            "taxi-arriveby": "12:30",
+            "restaurant-bookday": "friday",
+            "restaurant-bookpeople": "6",
+            "restaurant-booktime": "12:30",
+            "restaurant-pricerange": "cheap",
+            "restaurant-area": "north",
+            "hotel-bookday": "friday",
+            "hotel-bookpeople": "6",
+            "hotel-bookstay": "5",
+            "hotel-name": "cambridge belfry",
+            "hotel-pricerange": "none"
+        },
+        "bs_pred": {
+            "hotel-name": "Cambridge Belfry",
+            "hotel-type": "4 stars",
+            "hotel-parking": "yes",
+            "hotel-internet": "yes",
+            "hotel-bookpeople": "6",
+            "hotel-bookstay": "5 nights",
+            "hotel-bookday": "Friday",
+            "restaurant-name": "Royal Spice",
+            "restaurant-bookpeople": "6",
+            "restaurant-booktime": "12:30",
+            "restaurant-bookday": "Friday",
+            "taxi-destination": "Royal Spice",
+            "taxi-leaveat": "12:30",
+            "train": "none"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi , i am trying to find a place to stay called the cambridge belfry . what can you tell me about that ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nits price range is cheap , it s 4 stars , and offers internet and parking .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nsounds perfect . can you book a room for me for 6 people , 5 nights starting on friday ? please send me the reference number .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ngreat ! i have got you booked for 5 days for 6 people on friday . your reference number is 8rl6zc5g .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you for the reference number . are there any cheap place -s to dine in the north area ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ndo you have a preference for type of food ? i have an indian option and an italian option .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nany of the 2 would work . as long as you can book it for 6 people on the same day for 13:30 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , neither of them are available . should i try different time or other restaurant -s ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nok , try 12:30 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthat worked ! you've got a table for 6 reserved at royal spice at 12:30 on friday . ref . number is 8nhd0p2i . need anything else today ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to book a taxi from the hotel to the restaurant .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyour taxi booking is complete , your contact number is 07546255073 . car type is a black lexus . do you need help with anything else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat s all i need . thank you .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "indian",
+            "restaurant-area": "centre",
+            "attraction-type": "college",
+            "attraction-name": "kings college|hughes hall",
+            "attraction-area": "centre"
+        },
+        "bs_pred": {
+            "restaurant-name": "1",
+            "restaurant-food": "indian",
+            "restaurant-area": "town centre"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a college type attraction .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 18 colleges i have found , would you prefer 1 in town centre or in the west ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to visit on in town centre please .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure , we have thirteen options , 10 of which are free . may i suggest king s college , or hughes hall ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nokay , may i have their postcode , entrance fee , and phone number ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nsure , the post code to king s college is cb21st , the entrance fee is free , and phone number 01223331100<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you find an indian restaurant for me that is also in the town centre ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ncambridge has 9 options for indian food in the centre , do you have a specific price range ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan i get the postcode , price range , and phone number of 1 ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "taxi-destination": "royal spice",
+            "taxi-departure": "cambridge belfry",
+            "taxi-arriveby": "12:30",
+            "restaurant-bookday": "friday",
+            "restaurant-bookpeople": "6",
+            "restaurant-booktime": "12:30",
+            "restaurant-pricerange": "cheap",
+            "restaurant-area": "north",
+            "hotel-bookday": "friday",
+            "hotel-bookpeople": "6",
+            "hotel-bookstay": "5",
+            "hotel-name": "cambridge belfry",
+            "hotel-pricerange": "none"
+        },
+        "bs_pred": {
+            "hotel-name": "the cambridge belfry",
+            "hotel-type": "4 stars",
+            "hotel-parking": "offers parking",
+            "hotel-internet": "offers internet",
+            "hotel-bookpeople": "6 people",
+            "hotel-bookday": "friday",
+            "hotel-bookstay": "5 nights",
+            "restaurant-name": "royal spice",
+            "restaurant-food": "indian or italian",
+            "restaurant-booktime": "12:30",
+            "restaurant-bookpeople": "6 people",
+            "restaurant-bookday": "friday",
+            "taxi-destination": "restaurant",
+            "train": "none"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi , i am trying to find a place to stay called the cambridge belfry . what can you tell me about that ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nits price range is cheap , it s 4 stars , and offers internet and parking .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nsounds perfect . can you book a room for me for 6 people , 5 nights starting on friday ? please send me the reference number .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ngreat ! i have got you booked for 5 days for 6 people on friday . your reference number is 8rl6zc5g .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you for the reference number . are there any cheap place -s to dine in the north area ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ndo you have a preference for type of food ? i have an indian option and an italian option .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nany of the 2 would work . as long as you can book it for 6 people on the same day for 13:30 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , neither of them are available . should i try different time or other restaurant -s ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nok , try 12:30 .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthat worked ! you've got a table for 6 reserved at royal spice at 12:30 on friday . ref . number is 8nhd0p2i . need anything else today ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would like to book a taxi from the hotel to the restaurant .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyour taxi booking is complete , your contact number is 07546255073 . car type is a black lexus . do you need help with anything else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat s all i need . thank you .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwould you like me to look up entertainment for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , that is all i need for today . goodbye .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "italian",
+            "restaurant-area": "centre",
+            "attraction-type": "college",
+            "attraction-name": "saint catharines college"
+        },
+        "bs_pred": {
+            "restaurant-name": "saint catharine's college",
+            "restaurant-food": "italian food",
+            "restaurant-area": "centre part of town"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni was told about a beautiful college called saint catharine s . could i get some information on it ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nit is in the centre part of town at king s parade , and entrance is free . can i help you with anything else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i would like to know the postcode , please ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe postcode is cb21rl . is there anything else i can help you with ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyeah , are there any restaurant -s serving italian food near the college ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "expensive",
+            "restaurant-area": "south",
+            "hotel-bookday": "wednesday",
+            "hotel-bookpeople": "3",
+            "hotel-bookstay": "2",
+            "hotel-name": "el shaddia guest house",
+            "hotel-area": "centre",
+            "hotel-parking": "yes",
+            "hotel-stars": "0",
+            "hotel-internet": "yes"
+        },
+        "bs_pred": {
+            "hotel-area": "south",
+            "hotel-bookday": "wednesday",
+            "hotel-bookstay": "2 nights",
+            "hotel-bookpeople": "3 people",
+            "restaurant-name": "cambridge chop house",
+            "restaurant-pricerange": "expensive"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you help me find a place to stay ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyes ! what part of town would you like to stay in ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni would prefer to stay in the south please .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 4 nice place -s to stay in that area , is there a price range you prefer ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni have changed my mind and would prefer to stay in the center of town . i need parking , wifi , and it should have a 0 star rating .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere s 1 guest house , el shaddai , that fits your criteria . do you need more information ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno , but i do need a reservation for wednesday , 2 nights , for 3 people .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nbooking was successful . reference number is : lg6aflva .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthanks . could you also help me locate an expensive british restaurant ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe cambridge chop house sounds like it might be what you are looking for .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat sounds wonderful ! is it in the same area as the hotel ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyour hotel is in the south and the cambridge chop house is in the centre , is that okay ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhmm , i really want to stay near the hotel . do you have anything in the south instead ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "taxi-leaveat": "01:00",
+            "taxi-destination": "little seoul",
+            "taxi-departure": "great saint marys church",
+            "restaurant-food": "korean",
+            "restaurant-name": "little seoul",
+            "restaurant-area": "centre",
+            "attraction-type": "dontcare",
+            "attraction-name": "great saint marys church",
+            "attraction-area": "centre"
+        },
+        "bs_pred": {
+            "hotel-name": "",
+            "hotel-type": "",
+            "hotel-parking": "",
+            "hotel-area": "",
+            "hotel-bookday": "",
+            "hotel-bookstay": "",
+            "hotel-internet": "",
+            "hotel-bookpeople": "",
+            "hotel-stars": "",
+            "hotel-pricerange": "",
+            "restaurant-name": "little seoul",
+            "restaurant-food": "korean",
+            "restaurant-area": "city centre",
+            "restaurant-bookday": "",
+            "restaurant-booktime": "",
+            "restaurant-bookpeople": "",
+            "restaurant-pricerange": "",
+            "attraction-name": "great saint mary s church",
+            "attraction-type": "church",
+            "attraction-area": "city centre",
+            "taxi-arriveby": "saint mary s",
+            "taxi-departure": "little seoul",
+            "taxi-leaveat": "1:00",
+            "taxi-destination": "little seoul"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhi , i am traveling to cambridge and i am looking for things to do in the city centre . can you help me find something to do ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere is a lot to do in the centre is there a type of attraction you want ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni have no preference . pick any for me and please tell me the attraction type , entrance fee and phone number .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nall right . great saint mary s church is 1 our many churches famous for architecture . it s 2 pounds to get in , and their number is 01223350914 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am also looking for a restaurant that serves korean food , and is located in the same area as great saint mary s church .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nlittle seoul is on 108 regent street city centre . would you like a reservation ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nno thank you . can you provide me with their phone number ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ntheir phone number is 01223308681<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you . do you also book taxis ? i would like 1 from saint mary s to the little seoul .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwhat time would you like to travel by taxi ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni want to leave the church by 1:00 .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "swiss",
+            "restaurant-area": "north",
+            "hotel-bookday": "monday",
+            "hotel-bookpeople": "7",
+            "hotel-bookstay": "3",
+            "hotel-name": "worth house",
+            "hotel-area": "north",
+            "hotel-pricerange": "cheap",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "hotel-name": "Worth House",
+            "hotel-type": "guest house",
+            "hotel-pricerange": "cheap",
+            "hotel-area": "north",
+            "hotel-bookday": "Monday",
+            "hotel-bookstay": "3 nights",
+            "hotel-bookpeople": "7",
+            "restaurant-food": "swiss"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i am looking to stay at a guest house while i am in town . i do not need internet access , so do not worry about that .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe alpha milton guest house is in the north and moderate -ly priced . would you like to book a stay ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need something cheap -ly priced .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nwe have 9 guest houses that match your search . would you like to narrow it down ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni do not care as long as it s a guest house located in the north for cheap .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nmay i suggest the worth house ? it is a cheap , 4 star hotel in northern cambridge .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthat s fine . can i book it on monday for 4 nights for 7 people ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry . it looks like the guest house cannot be booked for your stay . there s a 0 star guest house also in the north . would you like me to look there ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncan you try booking again for 3 nights instead of 4 ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyour booking for 3 nights was a success ! your reference number is klpepned . is there anything else i can help you with ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthank you . are there any cheap restaurant -s near the hotel as well ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\njust to clarify , are you looking for a cheap restaurant in the north area of town ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes . this restaurant should serve swiss food too .<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "british",
+            "restaurant-area": "centre",
+            "train-bookpeople": "4",
+            "train-destination": "cambridge",
+            "train-day": "saturday",
+            "train-arriveby": "10:15",
+            "train-departure": "leicester"
+        },
+        "bs_pred": {
+            "train-destination": "cambridge",
+            "train-arriveby": "10:15",
+            "train-leaveat": "saturday",
+            "train-departure": "leicester",
+            "book_train": "yes",
+            "book_people": "4",
+            "book_restaurant": "yes",
+            "restaurant_food": "british"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a train departing from leicester and going to cambridge on saturday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are many trains available for you . do you have a departure or arrival time in mind ? the trip will take 105 minutes .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthe train should depart from leicester and should leave on saturday . the train should go to cambridge and should arrive by 10:15<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , the tr2969 leaves at 08:09 and arrives at 09:54 . would you like me to book tickets ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , please for 4 people . may i also get the reference number ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , your booking was successful ! your reference number is 5fhhno0k . the total fee is 120.06 and you can pay that at the station .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am also in the market for a new restaurant . is there something in the centre of town ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 69 restaurant -s in the centre . can i narrow it down by price for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am independently wealthy and price does not matter , i am interested more in eritrean food , do you have any with that ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , there are not any available . would you like to try something else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhow about a place that serves british food ?<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-pricerange": "cheap",
+            "restaurant-name": "nandos",
+            "restaurant-area": "south",
+            "hotel-area": "south",
+            "hotel-pricerange": "cheap",
+            "hotel-stars": "4",
+            "hotel-internet": "yes",
+            "hotel-type": "guest house"
+        },
+        "bs_pred": {
+            "restaurant-name": "nados",
+            "restaurant-food": "portuguese",
+            "restaurant-area": "south side of town",
+            "hotel-name": "cheap hotel",
+            "hotel-type": "guest house",
+            "hotel-stars": "4 star",
+            "hotel-internet": "free wifi"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni need a cheap place to eat on the south side of town .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ngreat , i have 2 place -s to recommend . nados serves portuguese and the lucky star serves chinese . which 1 do you like ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nnados serves portuguese sounds good can i get a address , food type , and phone number ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthe address is cambridge leisure park clifton way and the phone number is 01223327908 .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nexcellent . i also need to find a place to stay while in town . can you help me find a cheap hotel ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nyes i can help . will you be staying on the south side as well ? do you have any accommodation requirement -s ? thanks .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , i'll be staying on the south side so a cheap 4 star guest house with free wifi will do<|eot_id|>\n"
+    },
+    {
+        "bs_gt": {
+            "restaurant-food": "british",
+            "restaurant-area": "centre",
+            "train-bookpeople": "4",
+            "train-destination": "cambridge",
+            "train-day": "saturday",
+            "train-arriveby": "10:15",
+            "train-departure": "leicester"
+        },
+        "bs_pred": {
+            "train-arriveby": "10:15",
+            "train-leaveat": "08:09",
+            "train-bookpeople": "4",
+            "train-destination": "cambridge",
+            "train-day": "saturday",
+            "train-departure": "leicester",
+            "restaurant-food": "british",
+            "restaurant-bookday": "saturday",
+            "restaurant-bookpeople": "4"
+        },
+        "utt": "<|start_header_id|>system<|end_header_id|>\n<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am looking for a train departing from leicester and going to cambridge on saturday .<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are many trains available for you . do you have a departure or arrival time in mind ? the trip will take 105 minutes .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nthe train should depart from leicester and should leave on saturday . the train should go to cambridge and should arrive by 10:15<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , the tr2969 leaves at 08:09 and arrives at 09:54 . would you like me to book tickets ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nyes , please for 4 people . may i also get the reference number ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nokay , your booking was successful ! your reference number is 5fhhno0k . the total fee is 120.06 and you can pay that at the station .<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am also in the market for a new restaurant . is there something in the centre of town ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere are 69 restaurant -s in the centre . can i narrow it down by price for you ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ni am independently wealthy and price does not matter , i am interested more in eritrean food , do you have any with that ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\ni am sorry , there are not any available . would you like to try something else ?<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\nhow about a place that serves british food ?<|eot_id|>\n<|start_header_id|>system<|end_header_id|>\nthere will serves nice british food . its taste is good<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\ncould you book it for me , for saturday ?<|eot_id|>\n"
+    }
+]
